@@ -1,5 +1,5 @@
 package PATTERNS;
-import java.util.*;
+
 
 public class pattern {
     public static void main (String [] args){
@@ -16,3 +16,4 @@ public class pattern {
     }
 
 }
+
