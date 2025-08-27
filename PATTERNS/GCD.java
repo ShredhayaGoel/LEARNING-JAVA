@@ -27,6 +27,6 @@ public class GCD {
         return a;
     }
     public static void main(String [] args){
-        System.out.println(gcd(3,15));
+        System.out.println(gcd(0,15));
     }
 }
