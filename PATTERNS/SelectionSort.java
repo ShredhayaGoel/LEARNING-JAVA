@@ -11,7 +11,7 @@ public class SelectionSort {
              for (int j = i + 1; j < n; j++) {
                 if (nums[j] < nums[minIndex]) {
                     minIndex = j;
-                }}
+                }
             }
               int temp = nums[minIndex];
             nums[minIndex] = nums[i];
