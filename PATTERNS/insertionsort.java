@@ -14,8 +14,7 @@ public  class insertionsort {
                 a[j - 1] = a[j];
                 a[j] = temp;    
                 j--;
-            }
-
+            }     
 }
     }
     public static void main (String [] args){
