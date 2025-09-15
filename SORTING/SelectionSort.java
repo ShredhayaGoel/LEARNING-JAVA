@@ -1,5 +1,5 @@
-package PATTERNS;
-
+package SORTING;
+// selection sort
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class SelectionSort {
               int temp = nums[minIndex];
             nums[minIndex] = nums[i];
             nums[i] = temp;
-        }
+        }       
         return nums;
     }
 
