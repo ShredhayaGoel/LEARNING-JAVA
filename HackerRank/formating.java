@@ -1,4 +1,4 @@
-package PATTERNS;
+package HackerRank;
 
 /*   Question on hackerrank   
 In each line of output there should be two columns:
