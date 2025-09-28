@@ -1,6 +1,9 @@
 package HackerRank;
 
- import java.util.Scanner;
+ import java.util.Scanner; 
+   
+                            //  Question on hackerrank      
+
    /*    The challenge here is to read  lines of input until you reach EOF, then number and print all  lines of content.
 
 Hint: Java's Scanner.hasNext() method is helpful for this problem.
@@ -23,7 +26,7 @@ public static void main(String[] args) {
         System.out.println(linenum + " " + line);
         linenum++;
     }
-        
+
     sc.close();
     
 }
