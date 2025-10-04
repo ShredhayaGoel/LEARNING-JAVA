@@ -1,5 +1,9 @@
 package BinarySearch;
 
+
+// Given a sorted array of integers nums with 0-based indexing, 
+// find the index of a specified target integer. If the target is found in the array, return its index. If the target is not found, return -1.
+
 import java.util.Scanner;
 
 public class LowerBound {
@@ -41,7 +45,9 @@ public class LowerBound {
             {
             arr[i] = sc.nextInt();
         }
-        System.out.println("lower bound is at index: " + lowerBound(arr, 3));
+        System.out.println("Enter the element to find lower bound for");
+        int target = sc.nextInt();
+        System.out.println("lower bound is at index: " + lowerBound(arr, target));
     }
       if (choice == 0) {
                 System.out.println("Exiting the program.");

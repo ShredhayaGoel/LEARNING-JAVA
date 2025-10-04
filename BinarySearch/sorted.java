@@ -1,6 +1,9 @@
 package BinarySearch;
 
 import java.util.Scanner;
+// Given a sorted array of integers nums with 0-based indexing, 
+// find the index of a specified target integer. If the target is found in the array, return its index. If the target is not found, return -1.
+
 public class sorted {
 
     public static int binarySearch(int arr[], int x){
