@@ -22,8 +22,7 @@ public class sorted {
         }   
 
 
-        System.out.println(isSorted(nums1));  // Output: true
-        System.out.println(isSorted(nums1));  // Output: false
+        System.out.println(isSorted(nums1)); 
     
 sc.close();
 }
