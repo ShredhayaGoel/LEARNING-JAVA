@@ -37,3 +37,4 @@ if(arrsum > maxsum){
 sc.close();
     }   
 }
+
