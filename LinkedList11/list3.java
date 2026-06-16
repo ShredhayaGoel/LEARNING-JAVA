@@ -35,6 +35,28 @@ class linkedlist {
         }
         System.out.println();
     }
+
+    void addathead(int val) {
+        node temp = new node(val);
+        if (head == null) {
+            head = tail = temp;
+        }
+        temp.next = head;
+        head = temp;
+        size++;
+    }
+
+    void deletenode(int val) {
+        if (head == null) {
+            System.out.println("list is empty");
+            return;
+        }
+        head = head.next;
+        if (head == null) {
+            head = tail = null;
+        }
+        size--;
+    }
 }
 
 public class list3 {
@@ -47,6 +69,18 @@ public class list3 {
         list.addattail(14);
         list.addattail(15);
         list.addattail(16);
+        list.display();
+        list.addathead(9);
+        list.display();
+        list.addathead(52);
+        list.display();
+        list.addathead(94552);
+        list.display();
+        list.addathead(911);
+        list.display();
+        list.addathead(955);
+        list.display();
+        list.deletenode(955);
         list.display();
     }
 
